@@ -48,68 +48,14 @@
       $("#footer").load("/dist/footer.html");
     });
   </script>
-  
-  </head>
-  
-  <body>
-  
-    
-    <!-- navbar goes here -->
-    <nav class="bg-brown-100">
-        <div class="max-w-6xl mx-auto px-4">
-            <div class="flex justify-between">
-    
-                <div class="flex space-x-4">
-                    <!-- logo -->
-                    <div>
-                        <a href="#" class="flex items-center py-5 px-2 text-gray-700 hover:text-gray-900">
-                            <img src="/3lines-logo.jpg" alt="" style="width: 180px;">
-                            <!-- <span class="font-bold">3 Lines</span> -->
-                        </a>
-                    </div>
-    
-                    <!-- primary nav -->
-    
-                </div>
-                <div class="hidden md:flex items-center space-x-1">
-                    <a href="/index.html" class="py-5 px-3 text-gray-700 hover:text-gray-900">Home</a>
-                    <a href="/aboutUs.html" class="py-5 px-3 text-gray-700 hover:text-gray-900">About Us</a>
-                    <a href="/services.html" class="py-5 px-3 text-gray-700 hover:text-gray-900">Services</a>
-                    <a href="/reference.html" class="py-5 px-3 text-gray-700 hover:text-gray-900">Company Docs</a>
-    
-                </div>
-    
-                <!-- secondary nav -->
-                <div class="hidden md:flex items-center space-x-1">
-                    <!-- <a href="" class="py-5 px-3">Login</a> -->
-                    <a href="/contact.html"
-                        class="py-2 px-3 bg-yellow-400 hover:bg-yellow-300 text-yellow-900 hover:text-yellow-800 rounded transition duration-300">Contact
-                        Us</a>
-                </div>
-    
-                <!-- mobile button goes here -->
-                <div class="md:hidden flex items-center">
-                    <button class="mobile-menu-button">
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 12h16M4 18h16" />
-                        </svg>
-                    </button>
-                </div>
-    
-            </div>
-        </div>
-    
-        <!-- mobile menu -->
-        <div class="mobile-menu hidden md:hidden">
-            <a href="/index.html" class="block py-2 px-4 text-sm hover:bg-gray-200">Home</a>
-            <a href="/aboutUs.html" class="block py-2 px-4 text-sm hover:bg-gray-200">About Us</a>
-            <a href="/services.html" class="block py-2 px-4 text-sm hover:bg-gray-200">Services</a>
-            <a href="/reference.html" class="block py-2 px-4 text-sm hover:bg-gray-200">Company docs</a>
-            <a href="/contact.html" class="block py-2 px-4 text-sm hover:bg-gray-200">Contact Us</a>
-        </div>
-    </nav>
+
+</head>
+
+<body>
+
+
+  <!-- navbar goes here -->
+  <div id="header"></div>
 
   <!-- Hero starts -->
   <section class="px-4 py-20 mx-auto max-w-7xl">
@@ -117,13 +63,15 @@
     <div class="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">
       <h1 class="mb-6 text-4xl font-extrabold leading-none tracking-normal text-gray-900 md:text-6xl md:tracking-tight">
         <span
-          class="block w-full text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 via-pink-500 to-green-500 lg:inline">3 Lines offers UnLimited Utility Services</span>
+          class="block w-full text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 via-pink-500 to-green-500 lg:inline">3
+          Lines offers UnLimited Utility Services</span>
       </h1>
       <!-- <p class="px-0 mb-6 text-lg text-gray-600 md:text-xl lg:px-24">
         3 Lines offers UnLimited Utility Services
       </p> -->
       <div class="mb-4 space-x-0 md:space-x-2 md:mb-8">
-        <a class="inline-flex items-center justify-center w-full mb-2 btn btn-light btn-lg sm:w-auto sm:mb-0" href="/services.html">
+        <a class="inline-flex items-center justify-center w-full mb-2 btn btn-light btn-lg sm:w-auto sm:mb-0"
+          href="/services.html">
           Check our Services Here
           <svg class="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
             <path fill-rule="evenodd"
@@ -207,7 +155,8 @@
     <div
       class="text-white bg-gradient-to-r from-green-500 via-red-500 to-yellow-500 border-green-800 rounded-none card card-body sm:rounded-lg">
       <div class=" items-center justify-between px-1 py-4 sm:py-3 sm:px-3">
-        <p class="text-center mb-6 text-base font-semibold lg:mb-0">Well Documented, User Friendly Developer APIs for all your Needs at Lowest Cost </p>
+        <p class="text-center mb-6 text-base font-semibold lg:mb-0">Well Documented, User Friendly Developer APIs for
+          all your Needs at Lowest Cost </p>
         <!-- <a href="#" class="w-full text-green-800 shadow btn btn-white btn-lg sm:w-auto">Start for free</a> -->
       </div>
     </div>
@@ -215,9 +164,9 @@
   <!-- API ends -->
 
   <!-- footer -->
-    <div id="footer"></div>
+  <div id="footer"></div>
 
-  
+
   <!-- footer ends -->
 
   <!-- nav bar script starts -->
